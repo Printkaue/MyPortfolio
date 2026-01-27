@@ -9,8 +9,8 @@ return(
               Olá, eu sou <span>Kauê</span> 👋
             </h2>
             <p>
-              Desenvolvedor Full Stack focado em criar sistemas, APIs e soluções
-              práticas que funcionam de verdade.
+              Desenvolvedor Full Stack focado em criar sistemas e soluções
+              práticas que funcionam de verdade para os seus projetos.
             </p>
             <a href="#projetos" className="btn">
               Ver projetos

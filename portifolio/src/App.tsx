@@ -6,10 +6,14 @@ import Projetos from "./Projetos";
 import Habilidades from "./Habilidades";
 import Contato from "./Contato";
 import Footer from "./Footer";
+import Cinclos from "./cinclos";
 
 function App() {
   return (
     <>
+
+      {/*background*/}
+
       {/* NAVBAR */}
       <Navbar />
 
@@ -27,6 +31,9 @@ function App() {
 
       {/* CONTATO */}
       <Contato />
+
+      {/* efeito */}
+      <Cinclos />
 
       {/* Footer */}
       <Footer />

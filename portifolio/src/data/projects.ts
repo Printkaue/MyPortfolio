@@ -5,6 +5,7 @@ export type Project = {
   techs: string[];
   github: string;
   demo?: string | null;
+  image: string[]
 };
 
 export const projects: Project[] = [
@@ -14,7 +15,8 @@ export const projects: Project[] = [
     description: "Plataforma completa voltada para ensinar progamação, desenvolvida para meu TCC.",
     techs: ["Python", "Flask", "SQL"],
     github: "https://github.com/Printkaue/LOOPED-TCC",
-    demo: "https://looped-tcc.onrender.com/"
+    demo: "https://looped-tcc.onrender.com/",
+    image: ["/public/looped01.png", "/public/looped02.png", "/public/looped03.png"]
   },
   {
     id: 2,
@@ -22,7 +24,8 @@ export const projects: Project[] = [
     description: "API que permite a consulta de todos os resultados do braisileirão de qualquer time",
     techs: ["React", "Python", "Flask", "SQL"],
     github: "https://github.com/Printkaue/BR-k-Fut",
-    demo: null
+    demo: null,
+    image: []
   },
   {
     id: 3,
@@ -30,6 +33,7 @@ export const projects: Project[] = [
     description: "Jogo 2d de sobrevivencia, desenvolvi junto de um amigo para testes.",
     techs: ["Pygame", "Python"],
     github: "https://github.com/Printkaue/TheLastTraimGame",
-    demo: null
+    demo: null,
+    image: []
   }
 ];

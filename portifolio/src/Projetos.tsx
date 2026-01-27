@@ -4,11 +4,13 @@ import ProjectCard from "./progectcard";
 function Projetos() {
   return (
     <section id="projetos" className="section">
-      <h2>Projetos</h2>
+      <h2>Meus Trabalhos</h2>
+      <p>Alguns de meus projetos</p>
 
       <div className="projects-grid">
         {projects.map((project) => (
           <ProjectCard
+            image={project.image}
             key={project.id}
             title={project.title}
             description={project.description}
