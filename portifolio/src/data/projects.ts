@@ -16,7 +16,7 @@ export const projects: Project[] = [
     techs: ["Python", "Flask", "SQL"],
     github: "https://github.com/Printkaue/LOOPED-TCC",
     demo: "https://looped-tcc.onrender.com/",
-    image: ["/public/looped01.png", "/public/looped02.png", "/public/looped03.png"]
+    image: ["/looped01.png", "/looped02.png", "/looped03.png"]
   },
   {
     id: 2,
