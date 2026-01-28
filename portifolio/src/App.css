@@ -387,6 +387,19 @@ body {
   pointer-events: none;
 }
 
+.project-img-slide {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.project-img-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 /* RESPONSIVO */
 @media (max-width: 768px) {

@@ -25,7 +25,7 @@ function ProjectCard({ title, description, techs, github, demo, image }: Project
   return (
     <div className="project-card">
 
-      <div className="project-img">
+     <div className="project-img">
         <div
           className="project-img-track"
           style={{
@@ -33,14 +33,13 @@ function ProjectCard({ title, description, techs, github, demo, image }: Project
           }}
         >
           {image.map((img, index) => (
-            <div
-              key={index}
-              className="project-img-slide"
-              style={{ backgroundImage: `url(${img})` }}
-            />
+            <div key={index} className="project-img-slide">
+              <img src={img} alt="" />
+            </div>
           ))}
         </div>
       </div>
+
 
       <h3>{title}</h3>
       <p>{description}</p>
