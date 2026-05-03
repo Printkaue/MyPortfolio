@@ -18,28 +18,10 @@ export const projects: Project[] = [
     demo: "https://looped-tcc.onrender.com/",
     image: ["/looped01.png", "/looped02.png", "/looped03.png"]
   },
-  {
-    id: 2,
-    title: "Br Fut",
-    description: "API que permite a consulta de todos os resultados do braisileirão de qualquer time",
-    techs: ["React", "Python", "Flask", "SQL"],
-    github: "https://github.com/Printkaue/BR-k-Fut",
-    demo: null,
-    image: []
-  },
-  {
-    id: 3,
-    title: "The Last Train of Midnight",
-    description: "Jogo 2d de sobrevivencia, desenvolvi junto de um amigo para testes.",
-    techs: ["Pygame", "Python"],
-    github: "https://github.com/Printkaue/TheLastTraimGame",
-    demo: null,
-    image: []
-  },
 
     {
     id: 1,
-    title: "Dasboard de Vnedas Interativo",
+    title: "Dasboard de Vendas Interativo",
     description: "Um dashboard simples pensado para administração de vendas e visualizações estatistícas.",
     techs: ["FastAPI", "Python", "React", "Axios"],
     github: "https://github.com/Printkaue/DASHBOARD-De-Vendas",
