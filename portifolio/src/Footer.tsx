@@ -23,6 +23,13 @@ function Footer() {
             >
               Instagram
             </a>
+
+            <a href="https://github.com/Printkaue"
+               target="_blank"
+               rel="noopener noreferrer"             
+            >
+              GitHub
+            </a>
           </div>
         </div>
       </footer>

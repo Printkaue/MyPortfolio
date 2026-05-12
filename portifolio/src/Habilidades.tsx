@@ -6,7 +6,7 @@ function Habilidades (){
           <li>React</li>
           <li>JavaScript</li>
           <li>Python</li>
-          <li>Flask</li>
+          <li>FastAPI & Flask</li>
           <li>APIs REST</li>
           <li>SQL / SQLite</li>
           <li>Git & GitHub</li>
