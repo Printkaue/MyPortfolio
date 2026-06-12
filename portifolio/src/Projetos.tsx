@@ -5,7 +5,7 @@ function Projetos() {
   return (
     <section id="projetos" className="section">
       <h2>Meus Trabalhos</h2>
-      <p>Alguns de meus projetos</p>
+      <p>Alguns dos meus projetos:</p>
 
       <div className="projects-grid">
         {projects.map((project) => (
