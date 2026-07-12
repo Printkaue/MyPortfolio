@@ -36,5 +36,14 @@ export const projects: Project[] = [
     github: "https://github.com/Printkaue/WorldCup2026_Simulador",
     demo: null,
     image: ["/worldcup_img01.png", "/worldcup_img02.png", "/worldcup_img03.png"]
+  },
+    {
+    id: 4,
+    title: "Museu Digital Da Igualdade",
+    description: "Um projeto criativo que busca promover a igualdade entre culturas, apresentado no ENEX 2026.",
+    techs: [ "Java Script", "HTML-5", "CSS"],
+    github: "https://github.com/Printkaue/Museu-Digital",
+    demo: "https://museu-digital.onrender.com",
+    image: ["/Captura de tela 2026-07-12 121315.png", "/Captura de tela 2026-07-12 121250.png", "/Captura de tela 2026-07-12 121229.png", "/Captura de tela 2026-07-12 121206.png", "/Captura de tela 2026-07-12 121138.png"]
   }
 ];
